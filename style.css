@@ -1,0 +1,44 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.targetas{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  gap: 10px;
+}
+
+.targeta{
+  box-shadow: 4px 4px 10px black;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.targeta img{
+  border-radius: 10px;
+}
+
+.targeta:hover{
+  background-color: white;
+  border: 1px solid  black;
+  color: black;
+}
+
+.resultados{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  position: fixed;
+  top: 10%;
+  left: 0;
+transition: 0.3s;
+  margin-top: 300%;
+}
+
+.resultados.star{
+    margin-top: 0%;
+}
